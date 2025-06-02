@@ -1,0 +1,63 @@
+{
+  "name": "Fake GitHub Repo Workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "name": "Manual Trigger",
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        250,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "values": {
+          "string": [
+            {
+              "name": "repository.name",
+              "value": "fake-repo"
+            },
+            {
+              "name": "repository.full_name",
+              "value": "myorg/fake-repo"
+            },
+            {
+              "name": "repository.clone_url",
+              "value": "https://github.com/myorg/fake-repo.git"
+            },
+            {
+              "name": "ref",
+              "value": "refs/heads/main"
+            },
+            {
+              "name": "head_commit.id",
+              "value": "abc123"
+            },
+            {
+              "name": "head_commit.message",
+              "value": "Simulated commit message"
+            }
+          ]
+        }
+      },
+      "name": "Set Fake GitHub Data",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [
+        500,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Manual Trigger": [
+      {
+        "node": "Set Fake GitHub Data",
+        "type": "main",
+        "index": 0
+      }
+    ]
+  }
+}
