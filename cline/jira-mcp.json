@@ -1,0 +1,14 @@
+// VS Code settings.json
+{
+  "cline.mcpServers": {
+    "jira": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-server-jira"],
+      "env": {
+        "JIRA_URL": "https://your-instance.atlassian.net",
+        "JIRA_EMAIL": "your-email@example.com",
+        "JIRA_API_TOKEN": "your-api-token"
+      }
+    }
+  }
+}
