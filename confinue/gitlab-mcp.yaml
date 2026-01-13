@@ -1,0 +1,10 @@
+# ~/.continue/config.yaml
+mcpServers:
+  - name: gitlab
+    command: npx
+    args:
+      - "-y"
+      - "@anthropic/mcp-server-gitlab"
+    env:
+      GITLAB_URL: "https://gitlab.your-company.com"
+      GITLAB_TOKEN: "your-personal-access-token"
