@@ -1,0 +1,14 @@
+// VS Code settings.json
+{
+  "cline.mcpServers": {
+    "openshift": {
+      "command": "npx",
+      "args": ["-y", "mcp-server-kubernetes"],
+      "env": {
+        "KUBECONFIG": "~/.kube/config",
+        "OPENSHIFT_API_URL": "https://api.your-cluster.openshift.com:6443",
+        "OPENSHIFT_TOKEN": "your-service-account-token"
+      }
+    }
+  }
+}
