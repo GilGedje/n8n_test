@@ -1,0 +1,14 @@
+// VS Code settings.json
+{
+  "cline.mcpServers": {
+    "confluence": {
+      "command": "npx",
+      "args": ["-y", "@anthropic/mcp-server-confluence"],
+      "env": {
+        "CONFLUENCE_URL": "https://your-instance.atlassian.net/wiki",
+        "CONFLUENCE_EMAIL": "your-email@example.com",
+        "CONFLUENCE_API_TOKEN": "your-api-token"
+      }
+    }
+  }
+}
