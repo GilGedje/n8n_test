@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "nexus": {
+      "command": "npx",
+      "args": ["-y", "mcp-server-nexus"],
+      "env": {
+        "NEXUS_URL": "https://nexus.your-company.com",
+        "NEXUS_USERNAME": "your-username",
+        "NEXUS_PASSWORD": "your-password"
+      }
+    }
+  }
+}
