@@ -6,7 +6,17 @@ These updates are fetched live by the website from this repository.
 ```json
 [
   {
-    "id": "2026-01-13-001",
+    "id": "2026-01-17-001",
+    "date": "2026-01-17",
+    "level": "feature",
+    "category": "models",
+    "title": "New Jira & Confluence Tools",
+    "message": "Extend your AI capabilities with our new Atlassian integrations. Available now in Workspace.",
+    "tags": ["Integration", "New Feature"],
+    "cta": { "label": "Configure Tools →", "url": "/workspace?tab=tools" }
+  },
+{
+    "id": "2026-01-13-002",
     "date": "2026-01-13",
     "level": "feature",
     "category": "models",
@@ -16,7 +26,7 @@ These updates are fetched live by the website from this repository.
     "cta": { "label": "View model pack notes", "url": "/docs/models/offline-pack" }
   },
   {
-    "id": "2026-01-13-002",
+    "id": "2026-01-13-003",
     "date": "2026-01-13",
     "level": "info",
     "category": "models",
@@ -26,7 +36,7 @@ These updates are fetched live by the website from this repository.
     "cta": { "label": "See vision profiles", "url": "/docs/models/vision" }
   },
   {
-    "id": "2026-01-13-003",
+    "id": "2026-01-13-004",
     "date": "2026-01-13",
     "level": "feature",
     "category": "mcp",
@@ -36,7 +46,7 @@ These updates are fetched live by the website from this repository.
     "cta": { "label": "Open MCP guide", "url": "/docs/mcp" }
   },
   {
-    "id": "2026-01-13-004",
+    "id": "2026-01-13-005",
     "date": "2026-01-13",
     "level": "feature",
     "category": "tooling",
@@ -46,7 +56,7 @@ These updates are fetched live by the website from this repository.
     "cta": { "label": "Read the POC steps", "url": "/docs/tools/opencode-poc" }
   },
   {
-    "id": "2026-01-13-005",
+    "id": "2026-01-13-006",
     "date": "2026-01-13",
     "level": "maintenance",
     "category": "platform",
