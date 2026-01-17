@@ -13,7 +13,7 @@ These updates are fetched live by the website from this repository.
     "title": "New Jira & Confluence Tools",
     "message": "Extend your AI capabilities with our new Atlassian integrations. Available now in Workspace.",
     "tags": ["Integration", "New Feature"],
-    "cta": { "label": "Configure Tools →", "url": "/workspace?tab=tools" }
+    "cta": { "label": "Configure Tools", "url": "/workspace?tab=tools" }
   },
 {
     "id": "2026-01-13-002",
