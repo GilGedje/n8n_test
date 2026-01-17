@@ -39,9 +39,9 @@
   },
   {
     "id": "devstral",
-    "name": "Devstral-2-small",
+    "name": "Devstral",
     "icon": "assets/icons/models/mistral.png",
-    "brief": "Coding model · 24B parameters",
+    "brief": "Coding model · 123B parameters",
     "provider": "by Mistral",
     "features": [
       "Coding",
@@ -54,7 +54,7 @@
     "input": ["text", "image"],
     "output": ["text"],
     "context": "256K tokens",
-    "description": "The Devstral Small 2 is a 24-billion-parameter language model by Mistral AI, specifically designed as an agentic LLM for software engineering tasks. It excels at automating complex coding workflows by using tools to explore codebases, editing multiple files, and powering autonomous coding agents."
+    "description": "The Devstral Small 2 is a 123-billion-parameter language model by Mistral AI, specifically designed as an agentic LLM for software engineering tasks. It excels at automating complex coding workflows by using tools to explore codebases, editing multiple files, and powering autonomous coding agents."
   },
   {
     "id": "jamba",
