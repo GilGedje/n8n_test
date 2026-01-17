@@ -1,0 +1,78 @@
+[
+  {
+    "id": "gpt-oss",
+    "name": "GPT-OSS",
+    "icon": "assets/icons/models/openai.png",
+    "brief": "Thinking model · 120B parameters",
+    "provider": "by OpenAI",
+    "features": [
+      "Reasoning",
+      "Writing",
+      "Analysis"
+    ],
+    "tools_enabled": true,
+    "reasoning": { "value": 3, "max": 5 },
+    "speed": { "value": 2, "max": 3 },
+    "input": ["text", "image"],
+    "output": ["text"],
+    "context": "128K tokens",
+    "description": "The gpt-oss-120b model is an open-weight, 117-billion parameter language model from OpenAI, designed for production-level, high-reasoning, and agentic AI tasks. It is optimized for efficient deployment on enterprise infrastructure."
+  },
+  {
+    "id": "glm",
+    "name": "GLM-4.5-Air",
+    "icon": "assets/icons/models/zai.png",
+    "brief": "Thinking model · 106B parameters",
+    "provider": "by Z.ai",
+    "features": [
+      "Fast",
+      "Versatile",
+      "Multilingual"
+    ],
+    "tools_enabled": true,
+    "reasoning": { "value": 4, "max": 5 },
+    "speed": { "value": 2, "max": 3 },
+    "input": ["text", "image"],
+    "output": ["text"],
+    "context": "100K tokens",
+    "description": "GLM-4.5-Air is a cost-effective and efficient large language model designed primarily for high-volume intelligent agent applications, reasoning tasks, and coding assistance."
+  },
+  {
+    "id": "devstral",
+    "name": "Devstral-2-small",
+    "icon": "assets/icons/models/mistral.png",
+    "brief": "Coding model · 24B parameters",
+    "provider": "by Mistral",
+    "features": [
+      "Coding",
+      "Debugging",
+      "Fast"
+    ],
+    "tools_enabled": true,
+    "reasoning": { "value": 0, "max": 5 },
+    "speed": { "value": 3, "max": 3 },
+    "input": ["text", "image"],
+    "output": ["text"],
+    "context": "256K tokens",
+    "description": "The Devstral Small 2 is a 24-billion-parameter language model by Mistral AI, specifically designed as an agentic LLM for software engineering tasks. It excels at automating complex coding workflows by using tools to explore codebases, editing multiple files, and powering autonomous coding agents."
+  },
+  {
+    "id": "jamba",
+    "name": "Jamba 2.0 Mini",
+    "icon": "assets/icons/models/ai21labs.png",
+    "brief": "52B parameters · 256K context",
+    "provider": "by AI21 Labs 🇮🇱",
+    "features": [
+      "Hebrew",
+      "Creative",
+      "Summarization"
+    ],
+    "tools_enabled": true,
+    "reasoning": { "value": 0, "max": 5 },
+    "speed": { "value": 3, "max": 3 },
+    "input": ["text", "image"],
+    "output": ["text"],
+    "context": "256K tokens",
+    "description": "Jamba 2.0 Mini is a 52-billion parameter AI model developed by AI21 Labs in Israel. It excels at Hebrew language tasks, creative writing, summarization, and document understanding. With its massive 256K context window, it can process entire documents while maintaining coherence and accuracy."
+  }
+]
