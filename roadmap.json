@@ -1,1 +1,27 @@
 
+[
+    {
+        "date": "01/2025",
+        "title": "Project Kickoff",
+        "description": "Initial planning and team assembly.",
+        "status": "done"
+    },
+    {
+        "date": "02/2025",
+        "title": "X-Chat MVP",
+        "description": "First release of internal chat interface.",
+        "status": "done"
+    },
+    {
+        "date": "03/2026",
+        "title": "Blocked Feature",
+        "description": "Testing the blocked status styling.",
+        "status": "blocked"
+    },
+    {
+        "date": "04/2026",
+        "title": "In Progress Feature",
+        "description": "Testing the yellow status.",
+        "status": "in_progress"
+    }
+]
