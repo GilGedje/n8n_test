@@ -1,27 +1,104 @@
-
 [
     {
         "date": "01/2025",
-        "title": "Project Kickoff",
-        "description": "Initial planning and team assembly.",
+        "title": "Mission Started",
+        "description": "Given the mission - AI",
         "status": "done"
     },
     {
         "date": "02/2025",
-        "title": "X-Chat MVP",
-        "description": "First release of internal chat interface.",
+        "title": "OpenWebUI Deployed",
+        "description": "Deployed OpenWebUI",
         "status": "done"
     },
     {
+        "date": "03/2025",
+        "title": "First Model Deployed",
+        "description": "First model deployed - QwQ-32B",
+        "status": "done"
+    },
+    {
+        "date": "04/2025",
+        "title": "IDE Plugin Support",
+        "description": "Cline and Continue Plugin support in the IDE",
+        "status": "done"
+    },
+    {
+        "date": "05/2025",
+        "title": "Llama 3.3 70B",
+        "description": "Deploying Llama 3.3 70B",
+        "status": "done"
+    },
+    {
+        "date": "06/2025",
+        "title": "Confluence Search",
+        "description": "Confluence search support",
+        "status": "done"
+    },
+    {
+        "date": "07/2025",
+        "title": "RAG Pipeline",
+        "description": "RAG pipeline implementation",
+        "status": "done"
+    },
+    {
+        "date": "08/2025",
+        "title": "Model Expansion",
+        "description": "Deployed models - Qwen Coder, Llama 4 Scout, GPT-OSS",
+        "status": "done"
+    },
+    {
+        "date": "09/2025",
+        "title": "AI Survey",
+        "description": "AI Survey conducted",
+        "status": "done"
+    },
+    {
+        "date": "10/2025",
+        "title": "LiteLLM Deployed",
+        "description": "LiteLLM Deployed (Model Router and Proxy)",
+        "status": "done"
+    },
+    {
+        "date": "11/2025",
+        "title": "In Progress",
+        "description": "We cooking...",
+        "status": "done"
+    },
+    {
+        "date": "12/2025",
+        "title": "In Progress",
+        "description": "We still cooking...",
+        "status": "done"
+    },
+    {
+        "date": "01/2026",
+        "title": "Major Release",
+        "description": "Deployed AI site, Released OpenCode CLI tool, Revamped AI models (changed all models), PR-Agent released",
+        "status": "in_progress"
+    },
+    {
+        "date": "02/2026",
+        "title": "MCP & Gateway",
+        "description": "MCP support, LiteLLM as a gateway",
+        "status": "in_progress"
+    },
+    {
         "date": "03/2026",
-        "title": "Blocked Feature",
-        "description": "Testing the blocked status styling.",
-        "status": "blocked"
+        "title": "GitLab Duo",
+        "description": "GitLab Duo integration",
+        "status": "planned"
     },
     {
         "date": "04/2026",
-        "title": "In Progress Feature",
-        "description": "Testing the yellow status.",
-        "status": "in_progress"
+        "title": "TBD",
+        "description": "",
+        "status": "planned"
+    },
+    {
+        "date": "05/2026",
+        "title": "TBD",
+        "description": "",
+        "status": "planned"
     }
 ]
